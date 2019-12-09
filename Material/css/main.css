@@ -1,0 +1,77 @@
+.slider .indicators{
+    display: none;
+}
+
+section div div .container{
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    text-align: center;
+}
+
+.margin-class{
+    margin-bottom: 50px;
+}
+
+.container h3{
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+}
+
+.container h6{
+    margin: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.subHeaderH6{
+    margin: 20px 0 15px 0;
+}
+
+.Hr-For-subHeader{
+    border: none;
+    width: 10%;
+    border-top: 3px solid #EC407A;
+    border-radius: 15px;
+}
+
+.card .card-image .card-title{
+    color: #000;
+}
+
+.GoodAt-Section{
+    height: 500px;
+}
+
+.dark-bg-man{
+    background-image: url(../img/bg-man.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.color-white{
+    color: #fff;
+}
+
+/* Email input color */
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
+    color: #EC407A;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-color: #EC407A;
+    box-shadow: 0 1px 0 0 #EC407A;
+}
+
+.row{
+    margin-bottom: 0;
+}
+
+.repair{
+    background-image: url(../img/ServiceGoodAt.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
