@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .slider .indicators{
     display: none;
 }
@@ -41,10 +45,6 @@ h1,h2,h3,h4,h5,h6,p{
     color: #000;
 }
 
-.GoodAt-Section{
-    height: 500px;
-}
-
 .dark-bg-man{
     background-image: url(../img/bg-man.jpg);
     background-size: 100%;
@@ -74,4 +74,28 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
     background-image: url(../img/ServiceGoodAt.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+.features-icon{
+    font-size: 350%;
+    color: #aeaeae;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.features-icon:hover{
+    color: #EC407A;
+}
+
+.features-text h6{
+    text-align: left;
+    font-weight: bold;
+}
+
+.features-text p{
+    text-align: left;
+}
+
+.gallery-items div{
+    margin: 5px 0;
 }
