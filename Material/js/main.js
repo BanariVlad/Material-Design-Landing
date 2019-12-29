@@ -9,10 +9,6 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('.carousel').carousel();
-})
-
-$(document).ready(function(){
     $('input.autocomplete').autocomplete({
       data: {
         "Borderlands": null,
@@ -29,4 +25,20 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.materialboxed').materialbox();
+});
+
+$(document).ready(function(){
+    $('.parallax').parallax();
+});
+
+$(document).ready(function(){
+    $('.modal').modal();
+});
+
+$(document).ready(function(){
+    $('.tabs').tabs();
+});
+
+$(document).ready(function(){
+    $('.collapsible').collapsible();
 });

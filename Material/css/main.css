@@ -2,111 +2,37 @@ html{
     scroll-behavior: smooth;
 }
 
-/* 
-.slider .indicators{
-    display: none;
-}
-
-section div div .container{
-    text-align: center;
-}
-
-h1,h2,h3,h4,h5,h6,p{
-    text-align: center;
-}
-
-.margin-class{
-    margin-bottom: 50px;
-}
-
-.container h3{
-    color: #fff;
-    text-align: center;
-    font-weight: 200;
-}
-
-.container h6{
-    margin: 20px 0;
-    color: #fff;
-    text-align: center;
-}
-
-.subHeaderH6{
-    margin: 20px 0 15px 0;
-}
-
-.Hr-For-subHeader{
-    border: none;
-    width: 10%;
-    border-top: 3px solid #EC407A;
-    border-radius: 15px;
-}
-
-.card .card-image .card-title{
-    color: #000;
-}
-
-.dark-bg-man{
-    background-image: url(../img/bg-man.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.color-white{
-    color: #fff;
-}
-
-/* Email input color */
-
-/* input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
-    color: #EC407A;
-}
-
-input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
-    border-color: #EC407A;
-    box-shadow: 0 1px 0 0 #EC407A;
-}
-
-.row{
-    margin-bottom: 0;
-}
-
-.repair{
-    background-image: url(../img/ServiceGoodAt.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.features-icon{
-    font-size: 350%;
-    color: #aeaeae;
-    cursor: pointer;
-    transition: .3s;
-}
-
-.features-icon:hover{
-    color: #EC407A;
-}
-
-.features-text h6{
-    text-align: left;
-    font-weight: bold;
-}
-
-.features-text p{
-    text-align: left;
-}
-
-.gallery-items div{
-    margin: 5px 0;
-} */ 
-
 .start{
-    height: 400px;
+    height: 100%;
     display: flex;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.start .icons i{
+    font-size: 65px;
+}
+
+.start .icons i:nth-child(1){
+    color: #4267B2;
+}
+
+.start .icons i:nth-child(2){
+    color: #9147FF;
+}
+
+.start .icons i:nth-child(3){
+    color: #FF0000;
+}
+
+.start .icons i:nth-child(4){
+    color: #1DA1F2;
+}
 
 nav ul a:hover{
     color: #1C7ED4;
@@ -129,4 +55,72 @@ nav ul a:hover{
 
 .autocomplete{
     padding-left: 20px !important;
+}
+
+.materialboxed{
+    margin: 10px 0 !important;
+}
+
+.round{
+    display: flex;
+    justify-content: center;
+}
+
+.round div{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round i{
+    font-size: 85px;
+}
+
+.facts{
+    background: rgba(0,0,0,0.8) !important;
+    height: 100%;
+}
+
+.facts h2{
+    margin: 0 !important;
+    padding: 50px 0;
+}
+
+.reviews{
+    margin: 50px 0 !important;
+}
+
+.crop{
+    width: 70%;
+    height: 70%;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active{
+    color: #2196F3;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background-color: rgba(33,150,243,0.2);
+}
+
+.tabs .indicator{
+    background-color: #2196F3;
+}
+
+.tabs .tab a{
+    color: rgba(33,150,243,0.7);
+}
+
+@media screen and (max-width: 992px){
+    .round div{
+        height: 70px;
+        width: 70px;
+    }
+    .round i{
+        font-size: 50px;
+    }
 }
