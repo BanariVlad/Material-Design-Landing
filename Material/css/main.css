@@ -115,6 +115,21 @@ nav ul a:hover{
     color: rgba(33,150,243,0.7);
 }
 
+.color-green{
+    color: #1BBC9C;
+}
+
+.color-orange{
+    color: #FBB150;
+}
+
+.color-red{
+    color: #DE331C;
+}
+
+.color-star{
+    color: #E5B829;
+}
 @media screen and (max-width: 992px){
     .round div{
         height: 70px;
